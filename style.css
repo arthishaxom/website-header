@@ -154,12 +154,17 @@ p{
         gap: 2rem;
         margin-top: 1.5rem;
     }
+    .screensContainer{
+        width: 100%;
+        overflow: hidden;
+    }
     .screensContainer img{
         width: 180%;
         /* z-index: -1; */
         position: relative;
         left: -160px;
         top: 20px;
+        
     }
     .navbar button{
         border: solid 1px white;
