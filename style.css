@@ -114,18 +114,18 @@ p{
     left: 50px;
     top: 20px;
 }
-.fa-solid{
-    text-decoration: none;
-    width: 100px;
-    color: white;
+#menuicon{
     display: none;
 }
 @media (width <= 400px){
     .nav--elements{
         display: none;
     }
-    .fa-solid{
+    #menuicon{
         display: block;
+        text-decoration: none;
+        width: 100px;
+        color: white;
     }
     .navbar{
         gap: 1rem;
